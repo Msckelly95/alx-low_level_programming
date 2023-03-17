@@ -3,30 +3,33 @@
 #include <time.h>
 
 /**
- * main - entry point, printing a combination of two digit
+ * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	int x, y;
+	int d, p;
 
-	for (x = '0'; x <= '9'; x++)
+	for (d = '0'; d < '9'; d++)
 	{
-		for (y = x + 1; y <= '9'; y++)
+		for (p = d + 1; p <= '9'; p++)
 		{
-			if (y != x)
+			if (p != d)
 			{
-				putchar(x);
-				putchar(y);
-				if (x == 8 && y == 9)
+				putchar(d);
+				putchar(p);
+
+				if (d == '8' && p == '9')
 					continue;
+
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
 	putchar('\n');
+
 	return (0);
 }
