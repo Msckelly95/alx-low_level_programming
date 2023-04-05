@@ -1,20 +1,3 @@
-
-ogarteetotal
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x08-recursion/6-is_prime_number.c
-@ogarteetotal
-ogarteetotal 6-is_prime_number.c
- 1 contributor
-37 lines (30 sloc)  580 Bytes
 #include "main.h"
 #include <stdio.h>
 
